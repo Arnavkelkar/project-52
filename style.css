@@ -1,0 +1,41 @@
+.menu {
+    background-color:#2fffff ;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1%;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #ff1493;
+    margin: 0px; ;
+}
+
+.origami{
+    padding: 10px;
+    margin: 7px;
+}
+
+a:link{
+    color:palevioletred;
+}
+
+a:visited{
+    color:black;
+}
+
+.origami:hover{
+    zoom: 1.2;
+}
+
+.origami{
+    position: relative;
+}
+
+.origami p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    translate: transform(-50%,-50%);
+}
